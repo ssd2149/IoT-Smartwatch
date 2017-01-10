@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IOT</string>
+    <string name="speak">Speak</string>
+    <string name="action_settings">Settings</string>
+</resources>

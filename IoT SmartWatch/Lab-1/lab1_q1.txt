@@ -1,0 +1,50 @@
+Import machine
+Import time
+Led= machine.Pin(0, machine.Pin.OUT)
+while True:
+led.low()
+time.sleep(1)
+led.high()
+time.sleep(1)
+
+led.low()
+time.sleep(1)
+led.high()
+time.sleep(1)
+
+led.low()
+time.sleep(1)
+led.high()
+time.sleep(1)
+
+led.low()
+time.sleep(2)
+led.high()
+time.sleep(2)
+
+led.low()
+time.sleep(2)
+led.high()
+time.sleep(2)
+
+led.low()
+time.sleep(2)
+led.high()
+time.sleep(2)
+
+
+led.low()
+time.sleep(1)
+led.high()
+time.sleep(1)
+
+led.low()
+time.sleep(1)
+led.high()
+time.sleep(1)
+
+led.low()
+time.sleep(1)
+led.high()
+time.sleep(1)
+

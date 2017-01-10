@@ -1,0 +1,25 @@
+>>> import time
+>>> import machine
+>>> led1=machine.Pin(0,machine.Pin.OUT)
+>>> led2=machine.Pin(2,machine.Pin.OUT)
+>>> led1.value(1)
+>>> led2.value(1)
+>>> state1=0
+>>> state2=0
+>>> a=0
+>>> while True:
+...     time.sleep_ms(100)
+...     if a%5==0:
+...         if state2==0:
+...             state2=1
+...             led2.value(0)
+...         else:
+...             state2=0
+...             led2.value(1)
+...     if state1==0:
+...         state1=1
+...         led1.value(0)
+...     else:
+...         state1=0
+...         led1.value(1)
+...     a+=1
